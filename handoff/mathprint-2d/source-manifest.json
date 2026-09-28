@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "preparedAt": "2026-09-28T09:03:51.485623+00:00",
+  "baseCommit": "6b101c9ee7a457a4599391cb202ba614fb41452a",
+  "sourceCommit": "5ba6f5a5f0919d4d60a0fc38acaeafe414041059",
+  "sourceContainsUncommittedChanges": true,
+  "files": [
+    {
+      "path": ".claude/skills/gf2/skill.md",
+      "sourceRelativePath": ".claude/skills/gf2/skill.md",
+      "sourceSha256": "703a3b7e7de00dd0e1fe808d1bcdc5e0ab8b10feaf249f7b09ca3bb6776691b4",
+      "publishedSha256": "703a3b7e7de00dd0e1fe808d1bcdc5e0ab8b10feaf249f7b09ca3bb6776691b4",
+      "bytes": 101581,
+      "transformation": null
+    },
+    {
+      "path": ".claude/skills/gf2/verify-overlap.py",
+      "sourceRelativePath": ".claude/skills/gf2/verify-overlap.py",
+      "sourceSha256": "7093690d7dfac8d8d4911361e7383b0e4ad8d868d7c2cd10928f74d80b65f7e6",
+      "publishedSha256": "7093690d7dfac8d8d4911361e7383b0e4ad8d868d7c2cd10928f74d80b65f7e6",
+      "bytes": 21807,
+      "transformation": null
+    },
+    {
+      "path": ".claude/skills/gratik/SKILL.md",
+      "sourceRelativePath": ".claude/skills/gratik/SKILL.md",
+      "sourceSha256": "69567f0a86b0113022a2253ffb50838615c1fa557ea5efd4694a2c75eab172cc",
+      "publishedSha256": "69567f0a86b0113022a2253ffb50838615c1fa557ea5efd4694a2c75eab172cc",
+      "bytes": 26240,
+      "transformation": null
+    },
+    {
+      "path": ".claude/skills/gratik/references/ingested-pgfplots-kias.md",
+      "sourceRelativePath": ".claude/skills/gratik/references/ingested-pgfplots-kias.md",
+      "sourceSha256": "2f2705de3cde8f376ac92e0ad0c0d68bc23293047a6a1b8c337dcff3b5627b8c",
+      "publishedSha256": "0b4e205e8aeefb7cc603b7319568a8c5a32327cd43ef61d50db629edad8a4b60",
+      "bytes": 2617,
+      "transformation": "Removed machine-specific source-document directory; content guidance preserved."
+    },
+    {
+      "path": ".claude/skills/gratik/references/templates.md",
+      "sourceRelativePath": ".claude/skills/gratik/references/templates.md",
+      "sourceSha256": "b362151cc3af9a5829b5e0fcf319c7676c6f0eda7c61a87d3deeab40cf8dc4cb",
+      "publishedSha256": "b362151cc3af9a5829b5e0fcf319c7676c6f0eda7c61a87d3deeab40cf8dc4cb",
+      "bytes": 9927,
+      "transformation": null
+    },
+    {
+      "path": ".claude/skills/gratik/scripts/verify-gratik.py",
+      "sourceRelativePath": ".claude/skills/gratik/scripts/verify-gratik.py",
+      "sourceSha256": "62dfc551b5778339e526e1d8e89c81758a0df2c6c690e11c7a53bf3ca3213112",
+      "publishedSha256": "62dfc551b5778339e526e1d8e89c81758a0df2c6c690e11c7a53bf3ca3213112",
+      "bytes": 22528,
+      "transformation": null
+    },
+    {
+      "path": "docs/superpowers/specs/gratik-design-system.md",
+      "sourceRelativePath": "docs/superpowers/specs/gratik-design-system.md",
+      "sourceSha256": "a1507f7045e25674e11b062086b6432f01dadb56a58ef12a8cc70b03c2c457b1",
+      "publishedSha256": "a1507f7045e25674e11b062086b6432f01dadb56a58ef12a8cc70b03c2c457b1",
+      "bytes": 8769,
+      "transformation": null
+    },
+    {
+      "path": "scripts/render-tex.py",
+      "sourceRelativePath": "scripts/render-tex.py",
+      "sourceSha256": "a94163d0eb0267f0554bb480ea61f6c5b624161761af9490c692076493a09cdf",
+      "publishedSha256": "a94163d0eb0267f0554bb480ea61f6c5b624161761af9490c692076493a09cdf",
+      "bytes": 3273,
+      "transformation": null
+    },
+    {
+      "path": ".claude/skills/gf2/render-tex.py",
+      "sourceRelativePath": "scripts/render-tex.py",
+      "sourceSha256": "a94163d0eb0267f0554bb480ea61f6c5b624161761af9490c692076493a09cdf",
+      "publishedSha256": "a94163d0eb0267f0554bb480ea61f6c5b624161761af9490c692076493a09cdf",
+      "bytes": 3273,
+      "transformation": "Materialized shared local renderer; regular file, no host-specific symlink."
+    },
+    {
+      "path": ".claude/skills/gratik/scripts/render-tex.py",
+      "sourceRelativePath": "scripts/render-tex.py",
+      "sourceSha256": "a94163d0eb0267f0554bb480ea61f6c5b624161761af9490c692076493a09cdf",
+      "publishedSha256": "a94163d0eb0267f0554bb480ea61f6c5b624161761af9490c692076493a09cdf",
+      "bytes": 3273,
+      "transformation": "Materialized shared local renderer; regular file, no host-specific symlink."
+    }
+  ],
+  "scope": "Selected local skill documents and helper scripts only. Standalone distribution, not a full repository fork. Upstream baseCommit/sourceCommit refer to provenance, not this distribution history.",
+  "noBundledFontFiles": true,
+  "noNewCorpusOrPersonalDataFiles": true,
+  "distributionRepository": "aimataihmys-stack/mathprint-latex-skills",
+  "distributionBranch": "main",
+  "upstreamRepository": "hotdeli88-pixel/geo",
+  "localPreparedCommit": "0af162acbfd9c6e46b5ad12304c85d650fd18790"
+}

@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-09-28T09:07:16.214516+00:00",
+  "packageChecks": {
+    "passed": true,
+    "count": 79
+  },
+  "trustedExampleCompilation": {
+    "kind": "trusted-example-compilation",
+    "passed": true,
+    "results": [
+      {
+        "example": "geometry",
+        "passed": true,
+        "returncode": 0,
+        "pdfBytes": 11216
+      },
+      {
+        "example": "graph",
+        "passed": true,
+        "returncode": 0,
+        "pdfBytes": 45349
+      }
+    ],
+    "limitations": "No persistent output, no font redistribution, no visual or browser acceptance, no arbitrary TeX sandbox claim."
+  },
+  "graphStaticCheck": {
+    "passed": true,
+    "example": "handoff/mathprint-2d/examples/graph.tex"
+  },
+  "notVerified": [
+    "Exact three requirements of the external Claude session",
+    "Automatic discovery or actual reading by Claude",
+    "Browser/application end-to-end",
+    "Korean font/IME and physical print/Office insertion",
+    "Complete untrusted-TeX isolation",
+    "Exhaustive secret audit"
+  ],
+  "noOriginalRepositoryEdits": true,
+  "distributionRecheck": {
+    "checkedAt": "2026-09-28T09:16:52.616650+00:00",
+    "packagePassed": true,
+    "checks": 79,
+    "compilePassed": true,
+    "examples": [
+      {
+        "example": "geometry",
+        "passed": true,
+        "returncode": 0,
+        "pdfBytes": 11216
+      },
+      {
+        "example": "graph",
+        "passed": true,
+        "returncode": 0,
+        "pdfBytes": 45349
+      }
+    ]
+  }
+}

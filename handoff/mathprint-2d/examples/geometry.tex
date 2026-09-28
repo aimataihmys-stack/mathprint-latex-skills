@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\usepackage{tkz-euclide}
+\begin{document}
+\begin{tikzpicture}
+  \tkzDefPoints{0/0/A,4/0/B,1.2/2.8/C}
+  \tkzDefMidPoint(A,B)\tkzGetPoint{M}
+  \tkzDrawPolygon[line width=0.45pt](A,B,C)
+  \tkzDrawSegment[dotted,line width=0.35pt](C,M)
+  \tkzDrawPoint[size=2](M)
+  \tkzLabelPoint[below left](A){$\mathrm{A}$}
+  \tkzLabelPoint[below right](B){$\mathrm{B}$}
+  \tkzLabelPoint[above](C){$\mathrm{C}$}
+  \tkzLabelPoint[below](M){$\mathrm{M}$}
+\end{tikzpicture}
+\end{document}
